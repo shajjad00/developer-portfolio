@@ -111,3 +111,35 @@ main {
 .info-title {
   margin-bottom: 0;
 }
+#what-i-do-description {
+  padding: 30px 150px;
+}
+/* skills section here */
+.skills-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.skill-img {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+}
+.skill-header {
+  color: #181818;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.skill-description {
+  color: #757575;
+
+  font-size: 1rem;
+
+  font-weight: 400;
+  line-height: 1.75rem;
+}
