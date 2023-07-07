@@ -30,6 +30,9 @@ body {
   font-weight: 400;
   line-height: 1.875rem;
 }
+main > section {
+  margin-top: 130px;
+}
 /* nav related styles */
 nav {
   display: flex;
@@ -114,32 +117,55 @@ main {
 #what-i-do-description {
   padding: 30px 150px;
 }
-/* skills section here */
 .skills-container {
   display: flex;
-  gap: 24px;
-  margin-top: 50px;
-  margin-bottom: 130px;
+  gap: 30px;
 }
 .skills {
-  display: flex;
-  flex-direction: column;
+  padding: 30px;
+  border-radius: 0.3125rem;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-img {
-  width: 2.75rem;
-  height: 2.75rem;
-  flex-shrink: 0;
-}
-.skill-header {
-  color: #181818;
-  font-size: 1.25rem;
+/* resume section */
+.resume-col-title {
+  color: #474747;
+  font-size: 1.875rem;
   font-weight: 700;
 }
-.skill-description {
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institution {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume-item-institution,
+.resume-item-description {
   color: #757575;
-
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.resume-item-description {
   font-size: 1rem;
-
+  font-style: normal;
   font-weight: 400;
   line-height: 1.75rem;
+  margin-top: 20px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
